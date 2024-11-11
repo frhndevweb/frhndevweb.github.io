@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey: Building & Deploying My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mode.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>MY WEBSITE DEVELOPMENT JOURNEY</h1>
+        <p>Welcome to the creation Blog <span class="highlight">Farhan Dev Website</span></p>
+    </header>
+
+    <button onclick="toggleTheme()" id="themeToggleBtn">
+        <span id="themeIcon">🌙</span> Mode Light & Dark Theme
+    </button>
+    
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Blog entries -->
+        <div class="main-content">
+
+            <!-- Stage 1: Planning and HTML Setup -->
+            <div class="blog-post">
+                <img src="image/html.png" alt="HTML Setup" class="post-image">
+                <div class="post-content">
+                    <h3>Stage 1: Planning & HTML Setup</h3>
+                    <p><small>Oktober 10, 2024</small></p>
+                    <p>My journey began with planning the structure of my website. I created a basic `index.html` to lay out sections like the header, main content, and footer. This step focused on creating a clean HTML skeleton that would hold all content.</p>
+                </div>
+            </div>
+
+            <!-- Stage 2: Styling with CSS -->
+            <div class="blog-post">
+                <img src="image/css.png" alt="CSS Styling" class="post-image">
+                <div class="post-content">
+                    <h3>Stage 2: Styling with CSS</h3>
+                    <p><small>Oktober 12, 2024</small></p>
+                    <p>Next, I added CSS to style each section of the site. This included designing a responsive layout, choosing colors, and setting typography to match my personal style. I focused on creating a cohesive look for my portfolio.</p>
+                </div>
+            </div>
+
+            <!-- Stage 3: Adding JavaScript for Interactivity -->
+            <div class="blog-post">
+                <img src="image/js.png" alt="JavaScript Interactivity" class="post-image">
+                <div class="post-content">
+                    <h3>Stage 3: Adding JavaScript for Interactivity</h3>
+                    <p><small>Oktober 15, 2024</small></p>
+                    <p>I then added JavaScript to make the site more dynamic. JavaScript helped add interactivity, like hover effects and button actions, which made the website feel more engaging.</p>
+                </div>
+            </div>
+
+            <!-- Stage 4: Testing Responsiveness -->
+            <div class="blog-post">
+                <img src="image/preview.png" alt="Responsive Testing" class="post-image">
+                <div class="post-content">
+                    <h3>Stage 4: Testing Responsiveness</h3>
+                    <p><small>Oktober 18, 2024</small></p>
+                    <p>Ensuring the site looked great on all devices was crucial. I tested on various screen sizes and adjusted CSS as needed to make sure it was fully responsive, especially for mobile users.</p>
+                </div>
+            </div>
+
+            <!-- Stage 5: Deploying on Netlify -->
+            <div class="blog-post">
+                <img src="image/netlify.png" alt="Netlify Deployment" class="post-image">
+                <div class="post-content">
+                    <h3>Stage 5: Deploying on Netlify</h3>
+                    <p><small>Oktober 31, 2024</small></p>
+                    <p>The final step was deploying my site. I chose <a href="https://app.netlify.com" class="no-link"><b>Netlify</b></a> for its ease of use. After uploading my files directly to Netlify, my website was live at <b>https://frhndevweb.netlify.app</b>.</p>
+                    <a href="https://frhndevweb.netlify.app" target="_blank">
+                        <button class="read-more">VIEW LIVE SITE</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="about-card">
+                <img src="image/me.jpg" alt="Profile" class="profile-pic">
+                <h4>Hi, I'm Farhan!</h4>
+                <p>I'm a web developer with a passion for building functional and visually appealing websites. This journey taught me a lot, and I'm excited to continue learning and creating.</p>
+            </div>
+
+            <div class="tags">
+                <h4>Skills Used</h4>
+                <div class="tag-list">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Responsive Design</span>
+                    <span class="tag">Netlify</span>
+                    <span class="tag">GitHub</span>
+                    <span class="tag">Blog</span>
+                    <span class="tag">VS Code</span>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <button><a href="next.html" class="no-link">Next</a></button>
+        <p>Powered by <span><a href="https://frhndevweb.netlify.app" class="no-link">Farhan Dev</a></span></p>
+    </footer>
+<script src="script.js"></script>
+    
+</body>
+</html>
