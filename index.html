@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perjalanan Saya: Membangun & Mendeploy Website Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mode.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>PERJALANAN PENGEMBANGAN WEBSITE SAYA</h1>
+        <p>Selamat datang di Blog pembuatan <span class="highlight">Website Farhan Dev</span></p>
+    </header>
+    
+    <div class="container">
+        <div class="main-content">
+
+            <div class="blog-post">
+                <img src="image/html.png" alt="Pengaturan HTML" class="post-image">
+                <div class="post-content">
+                    <h3>Tahap 1: Perencanaan & Pengaturan HTML</h3>
+                    <p><small>Oktober 10, 2024</small></p>
+                    <p>Perjalanan saya dimulai dengan merencanakan struktur website saya. Saya membuat file `index.html` dasar untuk menyusun bagian seperti header, konten utama, dan footer. Langkah ini berfokus pada pembuatan kerangka HTML yang bersih untuk menampung semua konten.</p>
+                </div>
+            </div>
+
+            <div class="blog-post">
+                <img src="image/css.png" alt="Pengaturan CSS" class="post-image">
+                <div class="post-content">
+                    <h3>Tahap 2: Penataan dengan CSS</h3>
+                    <p><small>Oktober 12, 2024</small></p>
+                    <p>Selanjutnya, saya menambahkan CSS untuk mengatur setiap bagian situs. Ini termasuk merancang tata letak responsif, memilih warna, dan menetapkan tipografi agar sesuai dengan gaya pribadi saya. Saya fokus menciptakan tampilan yang konsisten untuk portofolio saya.</p>
+                </div>
+            </div>
+
+            <div class="blog-post">
+                <img src="image/js.png" alt="Interaktivitas JavaScript" class="post-image">
+                <div class="post-content">
+                    <h3>Tahap 3: Menambahkan JavaScript untuk Interaktivitas</h3>
+                    <p><small>Oktober 15, 2024</small></p>
+                    <p>Saya kemudian menambahkan JavaScript untuk membuat situs lebih dinamis. JavaScript membantu menambahkan interaktivitas, seperti efek hover dan aksi tombol, yang membuat website terasa lebih menarik.</p>
+                </div>
+            </div>
+
+            <div class="blog-post">
+                <img src="image/preview.png" alt="Pengujian Responsivitas" class="post-image">
+                <div class="post-content">
+                    <h3>Tahap 4: Pengujian Responsivitas</h3>
+                    <p><small>Oktober 18, 2024</small></p>
+                    <p>Memastikan situs terlihat bagus di semua perangkat sangat penting. Saya mengujinya di berbagai ukuran layar dan menyesuaikan CSS sesuai kebutuhan agar sepenuhnya responsif, terutama untuk pengguna ponsel.</p>
+                </div>
+            </div>
+
+            <div class="blog-post">
+                <img src="image/netlify.png" alt="Deployment di Netlify" class="post-image">
+                <div class="post-content">
+                    <h3>Tahap 5: Mempublish proyek ke Netlify</h3>
+                    <p><small>Oktober 31, 2024</small></p>
+                    <p>Langkah terakhir adalah mendeploy situs saya. Saya memilih <a href="https://app.netlify.com" class="no-link"><b>Netlify</b></a> karena kemudahannya. Setelah mengunggah file saya langsung ke Netlify, website saya sudah bisa diakses di <b>https://frhndevweb.netlify.app</b>.</p>
+                    <a href="https://frhndevweb.netlify.app" target="_blank">
+                        <button class="read-more">LIHAT SITUS LIVE</button>
+                    </a>
+                    <button class="read-more" onclick="showPopup(event)">KODE LENGKAP</button>
+                    <div id="popup" class="popup">
+                        <p>Kode lengkap belum tersedia.</p>
+                        <button class="popup-close" onclick="closePopup()">Tutup</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <aside class="sidebar">
+            <div class="about-card">
+                <img src="image/profile.JPG" alt="Profil" class="profile-pic">
+                <h4>Halo, Saya Farhan!</h4>
+                <p>Saya adalah seorang Frontend Developer Web pemula dengan minat pada pembangunan website yang fungsional dan menarik secara visual. Perjalanan ini mengajarkan saya banyak hal, dan saya bersemangat untuk terus belajar dan berkarya.</p>
+            </div>
+
+            <button onclick="toggleTheme()" id="themeToggleBtn">
+                <span id="themeIcon">🌙</span> Mode
+            </button>
+            
+            <a href="https://wa.me/+6288215660319?text=.allmenu" target="_blank">
+                <button class="whatsapp-button" class="no-link">Coba WhatsApp Bot</button>
+            </a>
+
+            <div class="tags">
+                <h4>Bahasa yang Digunakan</h4>
+                <div class="tag-list">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <button disable>Kembali</button>
+        <button onclick="window.location.href='next.html';">Berikutnya</button>
+        <p>Didukung oleh <span><a href="https://frhndevweb.netlify.app" class="no-link">Farhan Dev</a></span></p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

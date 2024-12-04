@@ -1,0 +1,60 @@
+html[data-theme="light"] body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+html[data-theme="light"] .header {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+html[data-theme="light"] .highlight {
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+html[data-theme="light"] .blog-post,
+html[data-theme="light"] .about-card,
+html[data-theme="light"] .popular-posts,
+html[data-theme="light"] .tags {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+html[data-theme="light"] .read-more,
+html[data-theme="light"] .footer button {
+    background-color: #dddddd;
+    color: #333333;
+}
+
+html[data-theme="light"] .no-link:hover {
+    text-decoration: underline;
+}
+
+#themeToggleBtn {
+    background-color: #3b3c42;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#themeToggleBtn:hover {
+    background-color: #4c4d52;
+}
+
+html[data-theme="light"] #themeToggleBtn {
+    background-color: #dddddd;
+    color: #333333;
+}
+
+html[data-theme="light"] #themeToggleBtn:hover {
+    background-color: #cccccc;
+}

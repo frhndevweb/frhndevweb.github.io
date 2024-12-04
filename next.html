@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mode.css">
+</head>
+<body>
+    <header class="header">
+        <h1>PERJALANAN PENGEMBANGAN WEBSITE SAYA</h1>
+        <p>Selamat datang di Blog Pembuatan <span class="highlight">Website Farhan Dev</span></p>
+    </header>
+
+    <main class="main-container">
+        <section class="content">
+            <div class="popular-posts">
+                <h4><span class="highlight">Belajar Pengembangan Web</span></h4>
+                <ul>
+                    <li>
+                        <img src="image/responsive.jpg" alt="Website Responsif" class="popular-post-image">
+                        <a href="https://www.youtube.com/watch?v=71a2zeC71gk&list=PLc6SEcJkQ6DzVY6THm3prtUU6HKMqpZSH" class="no-link">Cara Membangun Website Responsif dengan Dea Afrizal</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="image/flexbox.jpg" alt="CSS Flexbox" class="popular-post-image">
+                        <a href="https://youtu.be/wsTv9y931o8?si=QMtuIt79QodZvaqq" class="no-link">Memahami CSS Flexbox dengan Coding2Go</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="image/javascript.jpg" alt="Dasar-dasar JavaScript" class="popular-post-image">
+                        <a href="https://youtu.be/W6NZfCO5SIk?si=z59p18MNwF8bXRM8" class="no-link">Dasar-dasar JavaScript: Panduan Pemula dengan Mosh</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="image/deploying.jpg" alt="Menyebarkan Website" class="popular-post-image">
+                        <a href="https://youtu.be/NBrQp6-721c?si=gTt7Fo2Y2uy_Kf9Q" class="no-link">Menyebarkan Website: Panduan Langkah-demi-Langkah dengan Smoljames</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="image/tips.jpg" alt="10 Tips Teratas untuk Pengembang Web" class="popular-post-image">
+                        <a href="https://youtu.be/A2rj60uKFyc?si=Iok972BBfnUAnljC" class="no-link">10 Tips Teratas untuk Pengembang Web dari Sandhika Galih</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <button onclick="toggleTheme()" id="themeToggleBtn">
+                <span id="themeIcon">🌙</span> Mode Tema Terang & Gelap
+            </button>
+
+            <div class="popular-posts">
+                <h4><span class="highlight">Postingan Populer</span></h4>
+                <ul>
+                    <li>
+                        <img src="img/portfolio-1.png" alt="Portofolio-1" class="popular-post-image">
+                        <a href="https://frhndevweb.github.io/Portofolio" class="no-link">Portofolio-1</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="img/portfolio-2.png" alt="Portofolio-2" class="popular-post-image">
+                        <a href="https://frhndevweb.github.io/Portofolio-2" class="no-link">Portofolio-2</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="img/cek-khodam.png" alt="Cek Khodam" class="popular-post-image">
+                        <a href="https://frhndevweb.github.io/cek-khodam" class="no-link">Cek Khodam</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="img/love.png" alt="Love" class="popular-post-image">
+                        <a href="https://frhndevweb.github.io/Love" class="no-link">Love</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="img/hbd.png" alt="Selamat Ulang Tahun" class="popular-post-image">
+                        <a href="https://frhndevweb.github.io/hbd" class="no-link">Selamat Ulang Tahun</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <button onclick="window.location.href='index.html';">Kembali</button>
+        <button onclick="window.location.href='cs.html';">Berikutnya</button>
+        <p>Didukung oleh <span><a href="https://frhndevweb.netlify.app" class="no-link">Farhan Dev</a></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e2e;
+    color: #cfcfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #3a3a4a;
+    border-radius: 10px;
+    background-color: #28293e;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.message h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ff6b6b;
+}
+
+.message p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #d1d1e9;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #fff;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e85757;
+}
+
+.no-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.no-link:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <h1>Akan Datang</h1>
+            <p>Halaman ini sedang dalam tahap pengembangan. Nantikan kehadirannya!</p>
+        </div>
+        <footer>
+            <button onclick="window.location.href='next.html';">Kembali</button>
+        </footer>
+    </div>
+</body>
+</html>

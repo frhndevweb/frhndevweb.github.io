@@ -1,0 +1,146 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+.highlight {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.content {
+    flex: 2;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.popular-posts {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.popular-posts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.popular-posts li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.popular-posts img {
+    width: 60px;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+
+.popular-posts a {
+    font-size: 1rem;
+    color: #d1d1d1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.popular-posts a:hover {
+    color: #1f8ef1;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar button {
+    background-color: #282828;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+    background-color: #3c3c3c;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+footer button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+    background-color: #3c3c3c;
+}
+
+footer p a {
+    color: #1f8ef1;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.no-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.no-link:hover {
+    text-decoration: underline;
+}
